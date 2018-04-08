@@ -1,7 +1,7 @@
 # Tidy data set description
 
 ### The variables in the tidy data
-Tidy data contains 180 rows and 82 columns. Each row has averaged variables for each subject and each activity.
+Tidy data contains 180 rows and 68 columns. Each row has averaged variables for each subject and each activity.
 
 ### Only all the variables estimated from mean and standard deviation in the tidy set were kept.
 
@@ -20,8 +20,8 @@ Activity column has 6 types as listed below.
 6. LAYING
 
 ### The tidy data contains 6 rows (averaged based on activity) and 68 columns (66 variables and activity labels).
-1. "activitylabel"
-2. "subject"
+1. "SubjectID"
+2. "ActivityName"
 3. "tBodyAcc-mean()-X"          
 4. "tBodyAcc-mean()-Y"
 5. "tBodyAcc-mean()-Z"
